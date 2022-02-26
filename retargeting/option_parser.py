@@ -8,7 +8,7 @@ def get_parser():
     parser.add_argument('--num_layers', type=int, default=2, help='number of layers')
     parser.add_argument('--learning_rate', type=float, default=2e-4, help='learning rate')
     parser.add_argument('--alpha', type=float, default=0, help='penalty of sparsity')
-    parser.add_argument('--batch_size', type=int, default=256, help='batch_size')
+    parser.add_argument('--batch_size', type=int, default=128, help='batch_size')
     parser.add_argument('--upsampling', type=str, default='linear', help="'stride2' or 'nearest', 'linear'")
     parser.add_argument('--downsampling', type=str, default='stride2', help='stride2 or max_pooling')
     parser.add_argument('--batch_normalization', type=int, default=0, help='batch_norm: 1 or 0')
